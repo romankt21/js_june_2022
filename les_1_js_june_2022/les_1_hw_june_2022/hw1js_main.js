@@ -103,3 +103,5 @@ console.log(prompt("прошу ввести ім'я"))
 console.log(prompt("прошу ввести по-батькові"));
 
 console.log(prompt("прошу ввести прізвище"));
+
+console.log(prompt("прошу ввести вік"))
