@@ -42,7 +42,6 @@ console.log(book12);
 console.log(book13);
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
-
 // let users = [
 //     {name: 'petro', username: 'petro1', password: 'qwe'},
 //     {name: 'ivan', username: 'ivan1', password: 'asd'},
