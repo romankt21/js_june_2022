@@ -112,5 +112,108 @@
 // arr[7] = 'okten';
 // console.log(arr);
 
-let enginesvalue = [3, 3.6, 4.2];
-console.log(enginesvalue);
+// let v1 = 3;
+//
+// let enginesvalue = [v1, 3.6, 4.2];
+// console.log(enginesvalue);
+//
+// console.log(enginesvalue[2]);
+//
+// enginesvalue[3] = 4.5;
+// console.log(enginesvalue);
+//
+// enginesvalue[2] = 4.8
+// console.log(enginesvalue);
+//
+// enginesvalue[9] = 'ttt'
+// console.log(enginesvalue);
+//
+// console.log(enginesvalue.length);
+//
+// let round = Math.round(enginesvalue.length/2);
+// console.log(round);
+
+// let rap = ['coolio', '2pac', 'eminem', 'snoop dog'];
+// let rock = ['quenn', 'pink floyd', 'acdc'];
+//
+// let music =[rap, rock];
+// console.log(music);
+//
+// console.log(music[0][1]);
+
+
+// let user1 = {
+//     name: 'vasyl',
+//     age: 31,
+//     status: true
+// };
+//
+// console.log(user1)
+//
+// let car = {
+//     producer: 'porsche',
+//     model: 'cayenne',
+//     volume: 3.6,
+//     turbo: false,
+//     wheels: [21, 21, 21, 21]
+//
+// };
+//
+// console.log(car);
+//
+// console.log(car.model);
+// console.log(car['model']);
+//
+// console.log(car.wheels);
+// console.log(car['wheels']);
+
+// let car = {
+//     producer: 'porsche',
+//     model: 'cayenne',
+//     volume: 3.6,
+//     turbo: false,
+//     wheels: [
+//         {radius: 21, producer: 'toyo', side: 'front'},
+//         {radius: 21, producer: 'toyo', side: 'front'},
+//         {radius: 22, producer: 'nokian', side: 'back'},
+//         {radius: 22, producer: 'nokian', side: 'back'}
+//     ]
+// };
+//
+// console.log(car['wheels'][0]['producer']);
+// console.log(car.wheels[0].producer);
+
+// let x = 100;
+// let y = x;
+// console.log(x, y);
+//
+// y = 200;
+// console.log(x, y);
+//
+// x = 300;
+// console.log(x, y);
+
+
+let arr1 = [];
+let arr2 = arr1;
+
+arr2 [0] = 'hello';
+console.log(arr1);
+console.log(arr2);
+
+// arr1[0] = 20;
+// console.log(arr1);
+// console.log(arr2);
+
+// let cat ={};
+// let cat2 = cat;
+// cat2.name ='koko';
+// cat2['age'] = 2;
+//
+// console.log(cat2);
+// console.log(cat);
+//
+// cat['name'] = 'kit'
+// cat.age = 10;
+// console.log(cat2);
+// console.log(cat)
