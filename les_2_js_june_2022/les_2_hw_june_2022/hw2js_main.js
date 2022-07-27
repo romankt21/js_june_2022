@@ -32,38 +32,38 @@
 // console.log(book2);
 // console.log(book3);
 
-// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
+// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив об'єктів. Кожен автор має поля name,age
 
-// let book11 = {title: 'kolobok', pageCount: 10, genre: 'tale', authors: ['name: folk tale', 'age: 2000']};
-// let book12 = {title: 'three musketeers', pageCount: 400, genre: 'historical novel', authors: ['name: Oleksander Duma', 'age: 50']};
-// let book13 = {title: 'chornyi voron', pageCount: 410, genre: 'historical novel', authors: ['name: Vasyl Shkliar', 'age: 60']};
-// console.log(book11);
-// console.log(book12);
-// console.log(book13);
+let book11 = {title: 'kolobok', pageCount: 10, genre: 'tale', authors: [{name: 'folk tale'}, {age: 2000}]};
+let book12 = {title: 'three musketeers', pageCount: 400, genre: 'historical novel', authors: [{name: 'Oleksander Duma'}, {age: 50}]};
+let book13 = {title: 'chornyi voron', pageCount: 410, genre: 'historical novel', authors: [{name: 'Vasyl Shkliar'}, {age: 60}]};
+console.log(book11);
+console.log(book12);
+console.log(book13);
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
-let users = [
-    {name: 'petro', username: 'petro1', password: 'qwe'},
-    {name: 'ivan', username: 'ivan1', password: 'asd'},
-    {name: 'vasyl', username: 'vasyl1', password: 'zxc'},
-    {name: 'pavlo', username: 'pavlo1', password: 'rty'},
-    {name: 'maria', username: 'maria1', password: 'uio'},
-    {name: 'olena', username: 'olena1', password: 'fgh'},
-    {name: 'iryna', username: 'iryna1', password: 'jkl'},
-    {name: 'olia', username: 'olia1', password: 'vbn'},
-    {name: 'zoriana', username: 'zoriana1', password: 'qwas'},
-    {name: 'kateryna', username: 'kateryna1', password: 'edr'},
-];
-console.log(users[0].password);
-console.log(users[1].password);
-console.log(users[2].password);
-console.log(users[3].password);
-console.log(users[4].password);
-console.log(users[5].password);
-console.log(users[6].password);
-console.log(users[7].password);
-console.log(users[8].password);
-console.log(users[9].password);
-
-console.table(users,['password'])
+// let users = [
+//     {name: 'petro', username: 'petro1', password: 'qwe'},
+//     {name: 'ivan', username: 'ivan1', password: 'asd'},
+//     {name: 'vasyl', username: 'vasyl1', password: 'zxc'},
+//     {name: 'pavlo', username: 'pavlo1', password: 'rty'},
+//     {name: 'maria', username: 'maria1', password: 'uio'},
+//     {name: 'olena', username: 'olena1', password: 'fgh'},
+//     {name: 'iryna', username: 'iryna1', password: 'jkl'},
+//     {name: 'olia', username: 'olia1', password: 'vbn'},
+//     {name: 'zoriana', username: 'zoriana1', password: 'qwas'},
+//     {name: 'kateryna', username: 'kateryna1', password: 'edr'},
+// ];
+// console.log(users[0].password);
+// console.log(users[1].password);
+// console.log(users[2].password);
+// console.log(users[3].password);
+// console.log(users[4].password);
+// console.log(users[5].password);
+// console.log(users[6].password);
+// console.log(users[7].password);
+// console.log(users[8].password);
+// console.log(users[9].password);
+//
+// console.table(users,['password'])
