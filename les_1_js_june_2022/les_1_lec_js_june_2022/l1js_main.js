@@ -35,5 +35,10 @@
 //
 // console.log(!!'')
 
-console.log('10'+1);
-console.log('10'-1);
+// console.log('10'+1);
+// console.log('10'-1);
+
+// console.log('one');
+// document.write('two');
+// alert('three');
+// prompt('four');

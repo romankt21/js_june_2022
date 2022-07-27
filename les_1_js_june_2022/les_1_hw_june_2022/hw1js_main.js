@@ -104,4 +104,7 @@ console.log(prompt("прошу ввести по-батькові"));
 
 console.log(prompt("прошу ввести прізвище"));
 
-console.log(prompt("прошу ввести вік"))
+console.log(+prompt("прошу ввести вік"));
+
+let pr = prompt("прошу ввести ім'я песика")
+console.log(pr);
