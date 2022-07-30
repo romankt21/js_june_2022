@@ -104,7 +104,9 @@
 //         являється falsy (хибноподыбне, тобто кастується до false)
 
 let x = prompt('необхідно ввести будь яке значення')
-if (!x || x !== true) {
-    x = 'default'
-}
+// if (x !== true) {
+    if (x === 0 || x === false || x === '' || isNaN(x) || x === undefined) {
+        x = 'default'
+    }
+
     console.log(x)
