@@ -123,6 +123,8 @@
 // let name = prompt('enter your name?') || 'john';
 // console.log(name)
 
-let user = {}
+// let user = {}
+//
+// console.log(user?.email?.send())
 
-console.log(user?.email?.send())
+
