@@ -106,49 +106,188 @@
 
 // --------------------
 //     є масив
-let users = [
-    {name: 'vasya', age: 31, status: false},
-    {name: 'petya', age: 30, status: true},
-    {name: 'kolya', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'anya', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andrey', age: 29, status: true},
-    {name: 'masha', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 31, status: true}
-];
-// за допомоги циклу вивести:
-//     - користувачів зі статусом true
-// - користувачів зі статусом false
-// - користувачів які старші за 30 років
+// let users = [
+//     {name: 'vasya', age: 31, status: false},
+//     {name: 'petya', age: 30, status: true},
+//     {name: 'kolya', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'anya', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andrey', age: 29, status: true},
+//     {name: 'masha', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 31, status: true}
+// ];
+// // за допомоги циклу вивести:
+// //     - користувачів зі статусом true
+// // - користувачів зі статусом false
+// // - користувачів які старші за 30 років
+//
+//
+//
+// for (const user of users) {
+//     // if (user.status) {
+//     //     console.log(user);
+//     //
+//     // }
+//     // if (!user.status) {
+//     //     console.log(user)
+//     // }
+// if (user.age > 30) {
+//     console.log(user)
+// }
+// }
+//
 
+
+
+//additional
+
+// --створити масив з:
+//     - з 5 числових значень
+// - з 5 стічкових значень
+// - з 5 значень стрічкового, числового та булевого типу
+// - та вивести його в консоль
+//
+// -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
+
+// let arrayNumber = [0, 5, -20, 555, -200];
+// console.log(arrayNumber);
+
+
+// let arrayString = ['hello', 'ok', 'september', 'Ukraine', 'car'];
+// console.log(arrayString);
+
+
+// let arrayMix = [22, 'ok', 'september', 14, true];
+// console.log(arrayMix);
+
+// - є масив [2,17,13,6,22,31,45,66,100,-18] :
+
+
+let array = [2,17,13,6,22,31,45,66,100,-18];
+
+// 1. перебрати його циклом while
 // let i = 0;
-// while (
-//     i < users.length) {
-//     if (users.status === true) {
-//         console.log(users[i])
-//         // document.write(`<div>${users[i].name} ${users[i].age} ${users[i].status}</div>`)
-//         i++
+// while (i < array.length) {
+//     console.log(array [i])
+//    i++
+// }
+
+//     2. перебрати його циклом for
+// for (const number of array) {
+//     console.log(number)
+// }
+
+
+//3. перебрати циклом while та вивести  числа тільки з непарним індексом
+// let i = 0;
+// while (i < array.length) {
+//     if (i % 2 !==0) {
+//         console.log(array[i])
+//     }
+//     i++
+// }
+
+// 4. перебрати циклом for та вивести  числа тільки з непарним індексом
+// for (let i = 0; i < array.length; i++) {
+//     const arrayElement = array[i];
+//     if (i % 2 !== 0) {
+//         console.log(arrayElement)
 //     }
 // }
 
-for (const user of users) {
-    // if (user.status === true) {
-    //     console.log(${user})
-    document.write('<ul>');
-    for (const userKey in user) {
-      if ()
-    }
 
-
-    document.write('</ul>');
-    // }
-}
-
-
-
-// for (i = 0 ; i < users.length; i++) {
-//     if (typeof users)
+// 5. перебрати циклом while та вивести  числа тільки парні  значення
+// let i = 0;
+// while (i < array.length) {
+//     if (i % 2 === 0) {
+//         console.log(array[i])
+//     }
+//     i++
 // }
+
+
+// 6. перебрати циклом for та вивести  числа тільки парні  значення
+// for (let i = 0; i < array.length; i++) {
+//     if (i % 2 === 0 ) {
+//         console.log(array[i])
+//     }
+// }
+
+// 7. замінити кожне число кратне 3 на слово "okten"
+
+// for (let i = 0; i < array.length; i++) {
+//     if (i % 3 === 0) {
+//         array[i] = "okten";
+//         console.log(array[i])
+//     }
+// }
+// console.log(array);
+
+// 8. вивести масив в зворотньому порядку.
+// for (let i = array.length-1; i >= 0; i--)  {
+//     console.log(array[i])
+// }
+
+
+// 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
+
+// 1. перебрати його циклом while
+// let i = array.length-1;
+// while (i >= 0) {
+//     console.log(array [i])
+//    i--
+// }
+
+
+
+
+
+//3. перебрати циклом while та вивести  числа тільки з непарним індексом
+// let i = array.length-1;
+// while (i >= 0) {
+//     if (i % 2 !==0) {
+//         console.log(array[i])
+//     }
+//     i--
+// }
+
+
+
+// 4. перебрати циклом for та вивести  числа тільки з непарним індексом
+// for (let i = array.length-1; i >= 0 ; i--) {
+//     const arrayElement = array[i];
+//     if (i % 2 !== 0) {
+//         console.log(arrayElement)
+//     }
+// }
+
+
+// 5. перебрати циклом while та вивести  числа тільки парні  значення
+// let i = array.length-1;
+// while (i >= 0 ) {
+//     if (i % 2 === 0) {
+//         console.log(array[i])
+//     }
+//     i--
+// }
+
+
+// 6. перебрати циклом for та вивести  числа тільки парні  значення
+// for (let i = array.length-1; i >= 0 ; i--) {
+//     if (i % 2 === 0 ) {
+//         console.log(array[i])
+//     }
+// }
+
+// 7. замінити кожне число кратне 3 на слово "okten"
+
+for (let i = array.length-1; i >= 0 ; i--) {
+    if (i % 3 === 0) {
+        array[i] = "okten";
+        console.log(array[i])
+    }
+}
+console.log(array);
