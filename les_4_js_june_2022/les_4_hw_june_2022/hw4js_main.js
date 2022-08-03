@@ -47,13 +47,12 @@
 // -----------------------------------------------
 
 
-// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-//  // for (let i = 0; i <listOfItems.length; i++) {
-// //     document.write(`<div>${listofItems[i]}</div>`)
-// for (const list of listOfItems) {
-//     document.write(`<ul><li>${list}</li></ul>`)
-// }
-
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write(`<ul>`)
+for (const list of listOfItems) {
+    document.write(`<li>${list}</li>`)
+ }
+document.write(`<ul>`)
 
 //     Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
@@ -166,7 +165,7 @@
 // - є масив [2,17,13,6,22,31,45,66,100,-18] :
 
 
-let array = [2,17,13,6,22,31,45,66,100,-18];
+// let array = [2,17,13,6,22,31,45,66,100,-18];
 
 // 1. перебрати його циклом while
 // let i = 0;
@@ -284,10 +283,10 @@ let array = [2,17,13,6,22,31,45,66,100,-18];
 
 // 7. замінити кожне число кратне 3 на слово "okten"
 
-for (let i = array.length-1; i >= 0 ; i--) {
-    if (i % 3 === 0) {
-        array[i] = "okten";
-        console.log(array[i])
-    }
-}
-console.log(array);
+// for (let i = array.length-1; i >= 0 ; i--) {
+//     if (i % 3 === 0) {
+//         array[i] = "okten";
+//         console.log(array[i])
+//     }
+// }
+// console.log(array);
