@@ -1,16 +1,16 @@
-let users = [
-    {name: 'vasyl', age: 31, status: false},
-    {name: 'petro', age: 30, status: true},
-    {name: 'mykola', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'ganna', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andriy', age: 29, status: true},
-    {name: 'maria', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 31, status: true},
-]
+// let users = [
+//     {name: 'vasyl', age: 31, status: false},
+//     {name: 'petro', age: 30, status: true},
+//     {name: 'mykola', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'ganna', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andriy', age: 29, status: true},
+//     {name: 'maria', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 31, status: true},
+// ]
 // document.write(`<div>${users[0].name} ${users[0].age} ${users[0].status}</div>`)
 // document.write(`<div>${users[1].name} ${users[1].age} ${users[1].status}</div>`)
 //
@@ -20,13 +20,29 @@ let users = [
 //
 // for (let i = 1; i < users.length-1; i++) {
 //     document.write(`<div>${users[i].name} ${users[i].age} ${users[i].status}</div>`)
+//     console.log(users[i])
+// }
+
+// for (let i = 0; i < users.length; i++) {
+//     let user = users[i];
+//     document.write(`<div>${user.name} ${user.age} ${user.status}</div>`)
+//     console.log(user)
+// }
+
+// for (let i = 0; i < users.length; i++) {
+//     let user = users[i];
+//     if (user.status) {
+//         document.write(`<div>${user.name} ${user.age} ${user.status}</div>`)
+//         console.log(user)
+//     }
 // }
 //
-for (let i = 1; i < users.length-1; i+1) {
-    if (i % 2 === 0) {
-        document.write(`<div>${users[i].name} ${users[i].age} ${users[i].status}</div>`)
-    }
-    }
+// for (let i = 1; i < users.length-1; i++) {
+//     if (i % 2 === 0) {
+//         document.write(`<div>${users[i].name} ${users[i].age} ${users[i].status}</div>`)
+//         console.log(users[i])
+//     }
+//     }
 //
 //
 //     for (let i = users.length - 1; i >= 0; i--) {
@@ -154,6 +170,29 @@ for (let i = 1; i < users.length-1; i+1) {
 // do {
 //     console.log('qwer')
 // }  while (false)
+
+let users = [
+    {name: 'vasyl', age: 31, status: false},
+    {name: 'petro', age: 30, status: true},
+    {name: 'mykola', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'ganna', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andriy', age: 29, status: true},
+    {name: 'maria', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true},
+]
+
+
+let i = 0;
+do {
+    console.log(users[i]);
+    i++;
+    } while (i < users.length)
+
+
 
 
 // let user = {name: 'vasyl', age: 31, status: false, email: 'rt'};
