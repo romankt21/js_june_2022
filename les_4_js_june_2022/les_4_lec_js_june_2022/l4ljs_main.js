@@ -152,20 +152,61 @@
 // }
 
 
-
-
-
-
-
-
-
+// let users = [
+//     {name: 'vasyl', age: 31, status: false},
+//     {name: 'petro', age: 30, status: true},
+//     {name: 'mykola', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'ganna', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andriy', age: 29, status: true},
+//     {name: 'maria', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 31, status: true},
+// ]
+//
+//
 // let i = 0;
 // while (i < users.length) {
 //     let user = users [i]
-//     document.write(`<div>${user.name} ${user.age} ${user.status}</div>`)
+//     document.write(`<div>${user.name} ${user.age} ${user.status}</div>`);
+//     console.log(`${user.name} ${user.age} ${user.status}`)
 //     i++;
-//
 // }
+
+
+// let arr =[1, 2, 3];
+// let i = 0;
+// while (i < arr.length) {
+//     console.log(arr[i]);
+//     document.write(arr[i])
+//     document.write(`<div>${arr[i]}</div>`)
+//     i++;
+// }
+
+
+let arr =[1, 2, 3];
+let i = 0;
+while (i < arr.length) {
+    console.log(arr[i]);
+    // document.write(arr[i])
+    document.write(`<div>${arr[i]}</div>`)
+    i++;
+}
+
+console.log('-----------');
+document.write('------')
+
+let j = arr.length-1;
+while (j >= 0) {
+    console.log(arr[j]);
+    document.write(`<div>${arr[j]}</div>`)
+    // document.write(arr[i])
+    j--;
+}
+
+
 
 // do {
 //     console.log('qwer')
@@ -203,24 +244,24 @@
 // console.log(userKey, user[userKey]);
 // }
 
-let users = [
-    {name: 'vasyl', age: 31, status: false},
-    {name: 'petro', age: 30, status: true},
-    {name: 'mykola', age: 29, status: true},
-    {name: 'olya', age: 28, status: false},
-    {name: 'max', age: 30, status: true},
-    {name: 'ganna', age: 31, status: false},
-    {name: 'oleg', age: 28, status: false},
-    {name: 'andriy', age: 29, status: true},
-    {name: 'maria', age: 30, status: true},
-    {name: 'olya', age: 31, status: false},
-    {name: 'max', age: 31, status: true},
-]
-for (const user of users) {
-    document.write('<ol>');
-    for (const userKey in user) {
-        console.log(userKey,user[userKey]);
-        document.write(`<li>${userKey}- ${user[userKey]} </li>`)
-    }
-    document.write('</ol>');
-}
+// let users = [
+//     {name: 'vasyl', age: 31, status: false},
+//     {name: 'petro', age: 30, status: true},
+//     {name: 'mykola', age: 29, status: true},
+//     {name: 'olya', age: 28, status: false},
+//     {name: 'max', age: 30, status: true},
+//     {name: 'ganna', age: 31, status: false},
+//     {name: 'oleg', age: 28, status: false},
+//     {name: 'andriy', age: 29, status: true},
+//     {name: 'maria', age: 30, status: true},
+//     {name: 'olya', age: 31, status: false},
+//     {name: 'max', age: 31, status: true},
+// ]
+// for (const user of users) {
+//     document.write('<ol>');
+//     for (const userKey in user) {
+//         console.log(userKey,user[userKey]);
+//         document.write(`<li>${userKey}- ${user[userKey]} </li>`)
+//     }
+//     document.write('</ol>');
+// }

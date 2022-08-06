@@ -1,6 +1,6 @@
-// - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1,
-// 10, -999, 123, 3.14, 2.7, 16, true, false.
-
+// // - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1,
+// // 10, -999, 123, 3.14, 2.7, 16, true, false.
+//
 // let str1 = 'hello';
 // let str2 = 'owu';
 // let str3 = 'com';
@@ -14,9 +14,9 @@
 // let num7 = 16;
 // let bul1= true;
 // let bul2 = false;
-
-
-//     Вивести кожну змінну за допомогою: console.log , alert, document.write
+//
+//
+//     // Вивести кожну змінну за допомогою: console.log , alert, document.write
 // console.log(str1);
 // alert(str1);
 // document.write(str1);
@@ -68,9 +68,9 @@
 // console.log(bul2);
 // alert(bul2);
 // document.write(bul2)
-
-
-// - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
+//
+//
+// // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
 // let firstName;
 // firstName = 'Roman';
 //
@@ -85,8 +85,8 @@
 //
 // let person1 = `${firstName} ${middleName} ${lastNime}`;
 // console.log(person1)
-
-// - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+//
+// // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 //     let a = 100; let b = '100'; let c = true;
 // let a = 100;
 // console.log(typeof a);
@@ -96,15 +96,15 @@
 //
 // let c = true;
 // console.log(typeof c);
-
-// - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
-console.log(prompt("прошу ввести ім'я"))
-
-console.log(prompt("прошу ввести по-батькові"));
-
-console.log(prompt("прошу ввести прізвище"));
-
-console.log(+prompt("прошу ввести вік"));
-
-let pr = prompt("прошу ввести ім'я песика")
-console.log(pr);
+//
+// // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
+// console.log(prompt("прошу ввести ім'я"))
+//
+// console.log(prompt("прошу ввести по-батькові"));
+//
+// console.log(prompt("прошу ввести прізвище"));
+//
+// console.log(+prompt("прошу ввести вік"));
+//
+// let pr = prompt("прошу ввести ім'я песика")
+// console.log(pr);

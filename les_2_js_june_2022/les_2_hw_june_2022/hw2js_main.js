@@ -1,4 +1,4 @@
-// - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+// // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
 // let array =[];
 // array[0] = 1;
 // array[1] = 25;
@@ -23,25 +23,25 @@
 // console.log(array[7]);
 // console.log(array[8]);
 // console.log(array[9]);
-
-// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+//
+// // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
 // let book1 = {title: 'kolobok', pageCount: 10, genre: 'tale'};
 // let book2 = {title: 'three musketeers', pageCount: 400, genre: 'historical novel'};
 // let book3 = {title: 'chornyi voron', pageCount: 410, genre: 'historical novel'};
 // console.log(book1);
 // console.log(book2);
 // console.log(book3);
-
-// - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив об'єктів. Кожен автор має поля name,age
-
-let book11 = {title: 'kolobok', pageCount: 10, genre: 'tale', authors: [{name: 'folk tale'}, {age: 2000}]};
-let book12 = {title: 'three musketeers', pageCount: 400, genre: 'historical novel', authors: [{name: 'Oleksander Duma'}, {age: 50}]};
-let book13 = {title: 'chornyi voron', pageCount: 410, genre: 'historical novel', authors: [{name: 'Vasyl Shkliar'}, {age: 60}]};
-console.log(book11);
-console.log(book12);
-console.log(book13);
-
-// - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
+//
+// // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив об'єктів. Кожен автор має поля name,age
+//
+// let book11 = {title: 'kolobok', pageCount: 10, genre: 'tale', authors: [{name: 'folk tale'}, {age: 2000}]};
+// let book12 = {title: 'three musketeers', pageCount: 400, genre: 'historical novel', authors: [{name: 'Oleksander Duma'}, {age: 50}]};
+// let book13 = {title: 'chornyi voron', pageCount: 410, genre: 'historical novel', authors: [{name: 'Vasyl Shkliar'}, {age: 60}]};
+// console.log(book11);
+// console.log(book12);
+// console.log(book13);
+//
+// // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 // let users = [
 //     {name: 'petro', username: 'petro1', password: 'qwe'},
 //     {name: 'ivan', username: 'ivan1', password: 'asd'},
