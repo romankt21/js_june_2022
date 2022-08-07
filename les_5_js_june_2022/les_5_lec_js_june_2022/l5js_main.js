@@ -105,26 +105,70 @@
 //
 // foo(1, 2, 3, 4, 5, 'asd', true);
 
-function upgrateCalc() {
-    let res = 0;
-    switch (arguments[0]) {
-        case '+':
+// function upgrateCalc() {
+//     let res = 0;
+//     switch (arguments[0]) {
+//         case '+':
+//
+//             for (let i = 1; i < arguments.length; i++) {
+//                 const num = arguments[i];
+//                 res += num;
+//             }
+//             break;
+//             case '-':
+//
+//             for (let i = 1; i < arguments.length; i++) {
+//                 const num = arguments[i];
+//                 res -= num;
+//             }
+//             break;
+//     }
+//     return res;
+// }
+//
+// console.log(upgrateCalc('+', 1, 2, 3, 4));
+// console.log(upgrateCalc('-', 1, 2, 3, 4));
 
-            for (let i = 1; i < arguments.length; i++) {
-                const num = arguments[i];
-                res += num;
-            }
-            break;
-            case '-':
+// let calc = () => {}
 
-            for (let i = 1; i < arguments.length; i++) {
-                const num = arguments[i];
-                res -= num;
-            }
-            break;
-    }
-    return res;
-}
+// let calc = (a, b) => {
+//     return a + b;
+// }
+//
+// console.log(calc(10, 20));
 
-console.log(upgrateCalc('+', 1, 2, 3, 4));
-console.log(upgrateCalc('-', 1, 2, 3, 4));
+// console.log(asd());
+// function asd () {
+//     return 1000;
+// };
+// let qwe = () => {
+//     return 2000;
+// }
+// console.log(qwe());
+
+// let zxc = (a, b)=> a + b;
+// console.log(zxc(10, 20));
+
+// function foobar(a,b,c,...xxx) {
+//     console.log(xxx)
+//     console.log(a,b,c,xxx)
+// }
+// foobar(1,2,3,4,5,6);
+
+// let asd = {
+//     name: 'vasyl',
+//     greeting: function () {
+//         // console.log(this)
+//         console.log(`hello my name is ${this.name}`)
+//     },
+//     vitannya: () => {
+//         console.log(`hello my name is ${this.name}`)
+//     }
+// }
+//  asd.greeting();
+//
+// asd.vitannya();
+
+console.log(Math.round(Math.random()*100));
+console.log(Math.floor(Math.random()*50));
+
