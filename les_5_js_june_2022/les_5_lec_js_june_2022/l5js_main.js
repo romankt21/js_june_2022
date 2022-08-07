@@ -169,6 +169,93 @@
 //
 // asd.vitannya();
 
-console.log(Math.round(Math.random()*100));
-console.log(Math.floor(Math.random()*50));
+// console.log(Math.round(Math.random()*100));
+// console.log(Math.floor(Math.random()*50));
 
+
+//консультація
+// const obj = {
+//     name: 'Max',
+//     getname: function () {
+// console.log(this.name);
+//       return this.name
+//     }
+// }
+//
+// console.log(obj.getname());
+
+//поміняти числа місцями
+// let arr = [1, 2, 3, 4];
+//
+// let swap = (array, index) => {
+//     let tmp = array[index];
+//     array[index] = array[index+1]
+//     array[index+1] = tmp
+//     return arr
+// }
+//
+// console.log(swap(arr, 1))
+
+// //знайти найменше число масиву
+// let arr = [1, 5, 2, -12, 45];
+// let findMin =  (array) => {
+//     let minnumber = array[0]
+//     for (let item of array) {
+//         if (item < minnumber) {
+//             minnumber = item
+//         }
+//
+//     }
+//   return minnumber
+// }
+//
+// console.log(findMin(arr));
+
+// let a = 5;
+// console.log(a)
+// a += 5;
+// console.log(a)
+
+// let arr1 = [];
+// for (let i = 0; i < 10; i++) {
+//     arr1[i] =Math.round(Math.random()*100);
+//     }
+// let arr2 = [];
+// for (let i = 0; i < arr1.length; i++) {
+//     arr2[i] = arr1[i]*5;
+//
+// }
+// console.log(arr1);
+// console.log(arr2);
+
+// let arr = [0, 2, 0, 2, 6, 0, 1];
+// let res = [];
+// let count = 0;
+// let index = 0;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === 0) {
+//         count++
+//     } else {
+//         res[index++] = arr[i]
+//     }
+//
+//
+// }
+// console.log(res);
+// let zeroCount = res.length
+// for (let i = 0; i < count; i++) {
+//     res[zeroCount++]=0;
+//
+// }
+// console.log(res);
+
+let arr = [1, 2, 3]
+
+console.log(arr.length);
+arr [3] = 10;
+console.log(arr);
+
+let arr1 = [1, 2, 3]
+arr[arr1.length] = 5;
+console.log(arr1);
