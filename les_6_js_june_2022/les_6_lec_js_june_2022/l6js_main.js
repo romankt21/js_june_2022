@@ -9,23 +9,49 @@
 // let s = new String('ggh');
 // console.log(typeof s);
 
-let str = 'hello Okten';
- let s = str.concat('!!!');
+// let str = 'hello Okten';
+ // let s = str.concat('!!!');
 //  console.log(s)
 //
+
+
 // console.log(str.toUpperCase());
 // console.log(str.toLowerCase());
 // console.log(str.startsWith('he'));
+// console.log(str.startsWith('llo', 2));
+// console.log(str);
+
+
 // console.log(str.endsWith('en'));
+
+
 // console.log(str.substring(0, 7));
+
+
+
 // console.log(str.indexOf('h'));
 // console.log(str.lastIndexOf('o'));
 // console.log(str.indexOf('e', 5));
+
+// let userInfo = 'vasyl-31';
+// let indexOfTyre = userInfo.indexOf('-');
+// let name = userInfo.substring(0, indexOfTyre);
+// console.log(name);
+//
+// let age = userInfo.substring(indexOfTyre+1, userInfo.length);
+// console.log(age);
+
+
+
 // console.log(str.charAt(8));
 //  console.log(str.replace('e', '!'));
 // console.log(str.replaceAll('e', '!'));
 // let split = str.split(' ');
 // console.log(split);
+// let userInfo2 = 'petro-33:186:90-'
+// console.log(userInfo2.split(/[-:]/));
+
+
 // console.log(str.includes('ok'));
 
 
@@ -34,7 +60,7 @@ let str = 'hello Okten';
 // console.log(typeof {});
 // console.log(Array.isArray());
 // console.log(Array.isArray(arr));
-
+//
 // arr[arr.length] = 100;
 // arr[arr.length] = 'asd';
 //
@@ -63,10 +89,29 @@ let str = 'hello Okten';
 //
 // let concat = arr.concat(nums);
 // console.log(concat);
-
+//
 // let concat2 = nums.concat(arr);
 // console.log(concat2);
+// let users1 = [
+//     {name: 'ivan', age: 42},
+//     {name: 'pero', age: 20}
+//     ];
 //
+// let num1 = [1, 2, 3,];
+// let concat3 = users1.concat(num1);
+// console.log(concat3);
+
+// let users1 = [
+//     {name: 'ivan', age: 42},
+//     {name: 'pero', age: 20}
+//     ];
+//
+//
+// let concat3 = users1.concat(1, 2, 3);
+// console.log(concat3);
+
+
+
 // console.log(arr);
 // console.log(nums);
 //
@@ -78,11 +123,18 @@ let str = 'hello Okten';
 // console.log(concat);
 //
 // console.log('-----------');
-
+//
 // console.log(concat);
 // let splice = concat.splice(3, 2, 'q', 'w', 'e');
 // console.log(splice);
 // console.log(concat);
+
+// let arr = ['num1', 'num2', 'num3', 11, 22, 33,]
+// let splice1 = arr.splice(1, 1, -20, 'l');
+// console.log(splice1);
+// console.log(arr)
+
+
 
 
 //console.log(concat.indexOf(11));
@@ -115,14 +167,55 @@ let str = 'hello Okten';
 //     console.log(value, index)
 //     // console.log(array)
 // });
-
-
 // users.forEach(value => console.log(value));
 
 // let filterUsers = users.filter(function (value){
 //     return value.age > 30;
 // });
 // console.log(filterUsers);
+//
+//
+let users = [
+    {name: 'vasyl', age: 31, status: false},
+    {name: 'petro', age: 30, status: true},
+    {name: 'mykola', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'ganna', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andriy', age: 29, status: true},
+    {name: 'maria', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true},
+]
+
+// let asd = function (x) {
+//     console.log('hello', x)
+// }
+//
+// users.forEach(asd);
+//
+// console.log('---------------')
+//
+// users.forEach(function (y){
+//     console.log('hello', y)
+// });
+
+// console.log('------------')
+// users.forEach((user) => {
+//     console.log(user)}
+//
+// );
+
+// console.log('------------')
+// users.forEach((user) => {
+//         if (user.age > 30) {
+//             console.log(user)
+//         }
+//     }
+// );
+
+
 
 
 // let filterUsers = users.filter(value => value.age > 30);
@@ -138,6 +231,15 @@ let str = 'hello Okten';
 //
 // });
 // console.log(mapeUsers);
+
+// let map = users.map(user => ({name:user.name, age: user.age}));
+// console.log(map);
+
+// let map = users.map((user, index) => ({name: user.name, age: user.age, status: user.status, id: index + 1}));
+// console.log(map)
+//
+// let map1 = users.map((user, index) => ({...user, id: index +1}));
+// console.log(map1);
 
 // let find = users.find(value => value.name === 'max');
 // console.log(find);
@@ -172,6 +274,7 @@ let str = 'hello Okten';
 //
 // }));
 
+console.log(users.sort((user1, user2) => user1.name.length - user2.name.length));
 // console.log(users.sort((a, b) => {
 //     if (a.name < b.name) {
 //         return 1;
