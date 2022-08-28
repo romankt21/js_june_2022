@@ -1,0 +1,24 @@
+
+:root{
+    --userDivWidth: 200px;
+}
+
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.user {
+background: orange;
+    width: var(--userDivWidth);
+    height: 100px;
+    margin-top: 10px;
+    margin-left: calc(25% - ( var(--userDivWidth) - 100px));
+    margin-right: calc(25% - (var(--userDivWidth) - 100px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

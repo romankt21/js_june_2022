@@ -161,8 +161,8 @@
 
 //  // події - events
 
-let target = document.querySelector('.target')
-console.log(target);
+// let target = document.querySelector('.target')
+// console.log(target);
 
 // target.onclick = function () {
 //     console.log('.');
@@ -190,7 +190,7 @@ console.log(target);
 //     console.log(e.clientY);
 // };
 
-let f1 = document.forms.f1;
+// let f1 = document.forms.f1;
 //     f1.login.oninput = function () {
 //     let value = this.value
 //     console.log(value);
@@ -204,7 +204,23 @@ let f1 = document.forms.f1;
 //     };
 //
 
-    f1.onsubmit = function (e) {
-        e.preventDefault()
-        console.log(this.login.value)
-    };
+    // f1.onsubmit = function (e) {
+    //     e.preventDefault()
+    //     console.log(this.login.value)
+    // };
+
+// f1.addEventListener('submit', function (e) {
+//     e.preventDefault();
+//     console.log('.');
+// });
+//
+// f1.addEventListener('submit', function (e) {
+//     e.preventDefault();
+//     console.log(',');
+// });
+
+function explorer(htmlElement) {
+    console.log(htmlElement);
+}
+
+explorer(document.body);

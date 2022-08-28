@@ -1,0 +1,32 @@
+.user-details {
+    background: yellow;
+}
+
+.postsContainer {
+    background: aqua;
+}
+
+.postsDetailsButton {
+    background: salmon;
+    width: 90%;
+    margin-left: 5%;
+
+
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.post {
+    background: chartreuse;
+    width: 100px;
+    margin: 5px;
+
+    margin-left: calc(10% - 50px);
+    margin-right: calc(10% - 50px);
+
+
+}

@@ -1,0 +1,9 @@
+.post {
+    background: aqua;
+}
+
+.comments {
+    background: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
