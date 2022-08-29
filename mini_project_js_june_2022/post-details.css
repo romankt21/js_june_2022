@@ -6,4 +6,11 @@
     background: yellow;
     display: flex;
     flex-wrap: wrap;
+
+}
+
+.comments >li {
+    width: 100px;
+    background: blueviolet;
+    margin: 10px;
 }
