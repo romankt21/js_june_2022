@@ -221,6 +221,12 @@
 
 function explorer(htmlElement) {
     console.log(htmlElement);
-}
 
-explorer(document.body);
+    let children = htmlElement.children;
+    if (htmlElement.children.length !== 0) {
+        for (const child of children) {
+            explorer(child);
+        }
+    }
+}
+explorer(document.body)

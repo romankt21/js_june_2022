@@ -188,12 +188,36 @@ let users = [
     {name: 'olya', age: 31, status: false},
     {name: 'max', age: 31, status: true},
 ]
+let  cars = [
+    {model: 'renault', year: '2010'},
+    {model: 'zaz', year: '2003'},
+
+]
+
 
 // let asd = function (x) {
 //     console.log('hello', x)
 // }
 //
 // users.forEach(asd);
+
+// let asd = function (x) {
+//     if (x.status == false) {
+//     console.log('hello', x)
+//     }
+// }
+//
+// users.forEach(asd);
+//
+//
+// let arr = function (car) {
+//     console.log(car)
+// }
+//
+// cars.forEach(asd)
+
+
+
 //
 // console.log('---------------')
 //
@@ -274,7 +298,7 @@ let users = [
 //
 // }));
 
-console.log(users.sort((user1, user2) => user1.name.length - user2.name.length));
+// console.log(users.sort((user1, user2) => user1.name.length - user2.name.length));
 // console.log(users.sort((a, b) => {
 //     if (a.name < b.name) {
 //         return 1;
