@@ -158,7 +158,7 @@
  // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 
 class Car2 {
-    constructor() {
+    constructor(model, producer, year, maxSpeeds, engine) {
     }
 }
 
