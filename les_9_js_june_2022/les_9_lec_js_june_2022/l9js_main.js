@@ -102,27 +102,27 @@
 // h2.innerText = 'some title';
 // document.body.appendChild(h2);
 //
-// let allUsersDiv = document.getElementsByClassName('users') [0];
-// let users = [
-//     {name: 'vasyl', age: 31, status: false},
-//     {name: 'petro', age: 30, status: true},
-//     {name: 'mykola', age: 29, status: true},
-//     {name: 'olya', age: 28, status: false},
-//     {name: 'max', age: 30, status: true},
-//     {name: 'ganna', age: 31, status: false},
-//     {name: 'oleg', age: 28, status: false},
-//     {name: 'andriy', age: 29, status: true},
-//     {name: 'maria', age: 30, status: true},
-//     {name: 'olya', age: 31, status: false},
-//     {name: 'max', age: 31, status: true},
-// ];
-//
-// for (const user of users) {
-//     let div = document.createElement('div');
-//     div.classList.add('user');
-//     div.innerText = user.name;
-//     allUsersDiv.appendChild(div);
-// }
+let allUsersDiv = document.getElementsByClassName('users') [0];
+let users = [
+    {name: 'vasyl', age: 31, status: false},
+    {name: 'petro', age: 30, status: true},
+    {name: 'mykola', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'ganna', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andriy', age: 29, status: true},
+    {name: 'maria', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true},
+];
+
+for (const user of users) {
+    let div = document.createElement('div');
+    div.classList.add('user');
+    div.innerText = `${user.name} - ${user.age}`;
+    allUsersDiv.appendChild(div);
+}
 
 //
 // let users = [
@@ -219,14 +219,14 @@
 //     console.log(',');
 // });
 
-function explorer(htmlElement) {
-    console.log(htmlElement);
-
-    let children = htmlElement.children;
-    if (htmlElement.children.length !== 0) {
-        for (const child of children) {
-            explorer(child);
-        }
-    }
-}
-explorer(document.body)
+// function explorer(htmlElement) {
+//     console.log(htmlElement);
+//
+//     let children = htmlElement.children;
+//     if (htmlElement.children.length !== 0) {
+//         for (const child of children) {
+//             explorer(child);
+//         }
+//     }
+// }
+// explorer(document.body)
