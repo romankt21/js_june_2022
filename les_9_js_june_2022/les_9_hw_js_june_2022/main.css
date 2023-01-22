@@ -2,3 +2,36 @@
 /*    text-align: center;*/
 /*    background: lightyellow;*/
 /*}*/
+
+.wrap {
+    border: solid 2px red;
+}
+
+.collapse {
+    height: 80px;
+    background: #ffb700;
+}
+
+.alpha {
+    color: #5f76a0;
+    font-size: 50px;
+}
+
+.text {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.but {
+    height: 20px;
+    width: 40px;
+}
+
+.num {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
