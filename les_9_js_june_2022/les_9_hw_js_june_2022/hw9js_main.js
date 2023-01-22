@@ -112,28 +112,47 @@ let coursesArray = [
 
 for (const cours of coursesArray) {
 
-let allCoursesDiv = document.createElement('div');
-document.body.appendChild(allCoursesDiv);
+    let mainDiv = document.createElement('div');
+    mainDiv.style.display = 'flex'
+    document.body.appendChild(mainDiv);
 
-let title = document.createElement('h3');
-title.innerText = `title: ${cours.title}`;
-allCoursesDiv.appendChild(title);
+    let innerDiv = document.createElement('div');
+    innerDiv.style.border = '2px solid blue';
+    innerDiv.style.width = '400px';
+    innerDiv.style.display = 'flex'
+    innerDiv.style.flexDirection = 'column'
+    mainDiv.appendChild(innerDiv);
 
-let monthDuration = document.createElement('h4');
-monthDuration.innerText = `monthDuration: ${cours.monthDuration}`;
-allCoursesDiv.appendChild(monthDuration);
+    let title = document.createElement('h3');
+    title.innerText = `title: ${cours.title}`;
+    title.style.flexDirection = 'row'
+    title.style.border = '2px solid green';
+    title.style.width = '400px';
+    title.style.background = 'yellow'
+    title.style.textAlign = 'center'
+    innerDiv.appendChild(title);
 
-let hourDuration = document.createElement('h4');
-hourDuration.innerText = `hourDuration: ${cours.hourDuration}`;
-allCoursesDiv.appendChild(hourDuration);
+    let monthDuration = document.createElement('h4');
+    monthDuration.innerText = `monthDuration: ${cours.monthDuration}`;
+    monthDuration.style.marginTop = '10px';
+    monthDuration.style.border = '2px solid black';
+    innerDiv.appendChild(monthDuration);
 
-let modules = document.createElement('ul');
-allCoursesDiv.append(modules);
+    let hourDuration = document.createElement('h4');
+    hourDuration.innerText = `hourDuration: ${cours.hourDuration}`;
+    hourDuration.style.marginTop = '10px';
+    hourDuration.style.border = '2px solid brown';
+    innerDiv.appendChild(hourDuration);
+
+    let modules = document.createElement('ul');
+    modules.style.marginTop = '10px';
+    modules.style.border = '2px solid red';
+    innerDiv.append(modules);
 
     for (const module of cours.modules) {
         let liModule = document.createElement('li');
         liModule.innerText = module
-        allCoursesDiv.appendChild(liModule)
+        innerDiv.appendChild(liModule)
 
     }
 
