@@ -63,7 +63,6 @@
 // }
 
 
-
 // Цикл в циклі
 // - Є масив
 // let coursesArray = [
@@ -292,3 +291,31 @@ button.innerText = 'click';
 button.classList.add('but');
 
 document.body.append(input1, input2, input3, button)
+
+button.addEventListener('click', function () {
+    let row = input1.value;
+    let col = input2.value;
+    let elem = input3.value;
+
+    let generator = (tr, td, text) => {
+        let htmlTableElement = document.createElement('table');
+        htmlTableElement.style.border = '2px solid black'
+        document.body.appendChild(htmlTableElement);
+
+        for (let i = 0; i < tr; i++) {
+            const tr = document.createElement('tr');
+            tr.style.background = 'yellow'
+            htmlTableElement.appendChild(tr)
+
+            for (let j = 0; j < td; j++) {
+                const td = document.createElement('td');
+                td.innerText = text;
+                tr.appendChild(td)
+
+            }
+
+        }
+    }
+    generator(row, col, elem);
+    button.disabled = true;
+})
